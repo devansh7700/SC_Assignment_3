@@ -57,7 +57,7 @@ public class VulnerableApp {
              Statement stmt = conn.createStatement()) {
 
             stmt.executeUpdate(query);
-            System.out.println("Data saved to database.");
+            System.out.println("Data saved to database.);
 
         } catch (SQLException e) {
             System.out.println("Database error: " + e.getMessage());
